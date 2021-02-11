@@ -38,3 +38,8 @@ The purpose of this analysis was to use various machine learning models to predi
 - Easy Ensemble AdaBoost: This model yielded an accuracy score of 93.17%. The precision for the minority class was 0.09 and 1.00 for the majority class. The recall for the minority class was 0.92 and 0.94 for the majority class.
 
 <img src="https://github.com/kimcheese33/Credit_Risk_Analysis/blob/main/images/AdaBoost.png" />
+
+
+## Summary
+
+The precision for the majority class for all models was high at 1.0. However, the precision for all the models for the minority class was very low with the ensemble learners performing slightly better. The low precision for the minority class indicates that there is unreliable positive classification across the board. The recall for the majority and minority classes were more varied across the models. The recall score for the minority class was the highest for the AdaBoost model at 0.92 and lowest for the Cluster Centroids and SMOTE models at 0.68. A lower recall score indicates a large number of false negatives. The model I recommend would be the Easy Ensemble AdaBoost model, because it had the highest recall, precision, and accuracy score.
